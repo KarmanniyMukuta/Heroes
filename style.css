@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: fixed linear-gradient(45deg, #808620, #373a09);
+}
+.card {                                                                 /*КАРТКА НОМЕР 1*/
+    width: 300px;
+    height: 400px;
+    background: fixed linear-gradient(205deg, #4fd3e7, #0a5d68);
+    box-shadow:  -19px 19px 36px #30737c,
+             19px -19px 36px #5ee3f6;
+    padding-top: 1px; /*Уникааємо марджін колапс*/
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.card-body {
+    width: 250px;
+    height: 350px;
+    background: #0f0;
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+.card-body-top {
+    height: 300px;
+    background:  linear-gradient(205deg, #4fd3e7, #0a5d68);
+    border-radius: 10px 10px 0 0;
+    padding-top: 1px; /*Уникааємо марджін колапс*/
+}
+
+.card-body-bottom {
+    height: 50px;
+    background:  linear-gradient(205deg, #4fd3e7, #0a5d68);
+    border-radius: 0 0 10px 10px;
+    padding-top: 1px; /*Уникааємо марджін колапс*/
+}
+
+.img {
+    display: block;
+    width: 250px;
+    height: 190px;
+    margin: 0 auto;
+}
+
+.text {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-shadow:  2px 4px 6px #121414,
+    -2px -2px 1px #5226a5;
+}
+
+.tex {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: goldenrod;
+    text-shadow:  2px 4px 6px #121414,
+    -2px -2px 1px #5226a5;
+}
+.like{
+    width: 45px;
+    height: 45px;
+    margin: 1px auto;
+    background:  linear-gradient(205deg, #4fd3e7, #0a5d68);
+    box-shadow:  2px 2px 4px #2d6c75,
+             -2px -2px 4px #61eafd;
+             border-radius: 5px;
+}
+.card-body-bottom:hover .like img{                   /*!!!*/
+    transform: scale(1.2);
+}
+.like:active{
+    box-shadow: inset 19px -19px 41px #767b12,
+            inset -19px 19px 41px #ffff28;          /*!!!*/
+}
+.card2 {                                                                 /*КАРТКА НОМЕР 2*/
+    width: 300px;
+    height: 400px;
+    background: fixed linear-gradient(45deg, #c4261b, #7c1810);
+    box-shadow:  -19px 19px 36px #520701,
+             19px -19px 36px #dd1c0e;
+    padding-top: 1px; /*Уникааємо марджін колапс*/
+    border-radius: 5px;
+    margin-left: 450px;
+    margin-top: -400px;
+    
+}
+
+.card2-body {
+    width: 250px;
+    height: 350px;
+    background: linear-gradient(45deg, #ad1d12, #92180f);
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+.card2-body-top {
+    height: 300px;
+    background:  linear-gradient(45deg, #e65349, #9c1b12);
+    border-radius: 10px 10px 0 0;
+    padding-top: 1px; /*Уникааємо марджін колапс*/
+}
+
+.card2-body-bottom {
+    height: 50px;
+    background: linear-gradient(45deg, #5a0c07, #8a322c);
+    border-radius: 0 0 10px 10px;
+    padding-top: 1px; /*Уникааємо марджін колапс*/
+}
+
+.img2 {
+    display: inline-block;
+    width: 250px;
+    height: 190px;
+    margin: 0 auto;
+}
+
+.text2 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-shadow:  2px 4px 6px #121414,
+    -2px -2px 1px #5226a5;
+}
+
+.tex2 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: goldenrod;
+    text-shadow:  2px 4px 6px #121414,
+    -2px -2px 1px #5226a5;
+}
+.like2{
+    width: 45px;
+    height: 45px;
+    margin: 1px auto;
+    background:  linear-gradient(45deg, #4b110c, #b61c11);
+    box-shadow: inset 2px 2px 4px #270e0c,
+            inset -2px -2px 4px #d81305;
+             border-radius: 5px;
+}
+.card2-body-bottom:hover .like2 img{                   /*!!!*/
+    transform: scale(1.2);
+}
+.like2:active{
+    box-shadow: inset 19px -19px 41px #1a0a53,
+            inset -19px 19px 41px #0a043f;          /*!!!*/
+}
+.card3 {                                                                 /*КАРТКА НОМЕР 3*/
+    width: 300px;
+    height: 400px;
+    background: fixed linear-gradient(225deg, #6f0592, #540a6e);
+    box-shadow:  -19px 19px 41px #71009a,
+    19px -19px 41px #f700ff;
+    padding-top: 1px; /*Уникааємо марджін колапс*/
+    border-radius: 5px;
+    margin-left: 1170px;
+    margin-top: -400px;
+    
+}
+
+.card3-body {
+    width: 250px;
+    height: 350px;
+    background: linear-gradient(225deg, #c100ff, #a200dd);
+    margin: 25px auto;
+    border-radius: 10px;
+}
+
+.card3-body-top {
+    height: 300px;
+    background:  linear-gradient(225deg, #5c007a, #8d1eb6);
+    border-radius: 10px 10px 0 0;
+    padding-top: 1px; /*Уникааємо марджін колапс*/
+}
+
+.card3-body-bottom {
+    height: 50px;
+    background: linear-gradient(45deg, #000000, #a200dd);
+    border-radius: 0 0 10px 10px;
+    padding-top: 1px; /*Уникааємо марджін колапс*/
+}
+
+.img3 {
+    display: inline-block;
+    width: 250px;
+    height: 190px;
+    margin: 0 auto;
+}
+
+.text3 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-shadow:  2px 4px 6px #121414,
+    -2px -2px 1px #5226a5;
+}
+
+.tex3 {
+    font-family: 'Paytone One', sans-serif;
+    font-size: 26px;
+    text-align: center;
+    color: goldenrod;
+    text-shadow:  2px 4px 6px #121414,
+    -2px -2px 1px #5226a5;
+}
+.like3{
+    width: 45px;
+    height: 45px;
+    margin: 1px auto;
+    background:  linear-gradient(45deg, #4d0268, #bb00fa);
+    box-shadow: inset 2px 2px 4px #000000,
+    inset -2px -2px 4px #f700ff;
+             border-radius: 5px;
+}
+.card3-body-bottom:hover .like3 img{                   /*!!!*/
+    transform: scale(1.2);
+}
+.like3:active{
+    box-shadow:  inset 19px -19px 41px #e0e0e0,
+    inset -19px 19px 41px #000000;         /* !!! */
+}
